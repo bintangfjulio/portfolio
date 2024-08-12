@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bintang Fajar Julio - Developer</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/self-photo.jpg" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Bintang Fajar Julio">
+              Bintang Fajar Julio
+            </h1>
+
+            <p class="title">Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">LinkedIn</p>
+                <a
+                  href="https://linkedin.com/in/bintangfajarjulio"
+                  target="_blank"
+                  class="contact-link"
+                  >https://linkedin.com/in/bintangfajarjulio</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon
+                  name="logo-github"
+                  role="img"
+                  class="md hydrated"
+                ></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">GitHub</p>
+                <a
+                  href="https://github.com/bintangfjulio"
+                  target="_blank"
+                  class="contact-link"
+                  >https://github.com/bintangfjulio</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:bintangin14@gmail.com" class="contact-link"
+                  >bintangin14@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Jakarta, Indonesia</address>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am an Informatics Engineering student from Politeknik Negeri
+              Jakarta, experienced in app development using JavaScript, Go, PHP,
+              and Python. Additionally, I have experience teaching coding and
+              possess knowledge of machine learning.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/coding.png" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    Building modern web using web app frameworks.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/deep-learning.png" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                  <p class="service-item-text">
+                    Building Artificial Intelligence using machine learning
+                    algorithms.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/video-call.png" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Teaching</h4>
+
+                  <p class="service-item-text">
+                    Teaching coding to teens (Junior-High School) in a fun way.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/flow.png" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">System Analyst</h4>
+
+                  <p class="service-item-text">
+                    Planning and designing object-oriented systems.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Experienced At</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="https://nusatekno.co.id/" target="_blank">
+                  <img src="./assets/images/ntg.png" alt="client logo" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="https://timedooracademy.com/id/" target="_blank">
+                  <img src="./assets/images/td.svg" alt="client logo" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="https://pertamedika.co.id/" target="_blank">
+                  <img src="./assets/images/ihc.png" alt="client logo" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Junior Programmer</h4>
+                <h4 class="timeline-item-company">PT Nusa Tekno Global</h4>
+
+                <span>September 2023 — Now</span>
+
+                <p class="timeline-text">
+                  Developed the "Kekayaan Intelektual Universitas Indonesia (KI
+                  UI)" web app using NUXT JS, Go, and PostgreSQL
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">IT Intern</h4>
+                <h4 class="timeline-item-company">
+                  PT Pertamina Bina Medika IHC
+                </h4>
+
+                <span>September 2023 — December 2023</span>
+
+                <p class="timeline-text">
+                  Developed the "Anjungan Pendaftaran Mandiri (APM)" web app
+                  using CodeIgniter, Oracle, and Bootstrap
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Programming Teacher</h4>
+                <h4 class="timeline-item-company">Timedoor Academy</h4>
+
+                <span>February 2023 - Now</span>
+
+                <p class="timeline-text">
+                  Taught basic programming to teens on Phaser, web, and AI via
+                  Zoom meetings
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon
+                  name="school-outline"
+                  role="img"
+                  class="md hydrated"
+                ></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor of Applied Science in Informatics Engineering
+                </h4>
+                <h4 class="timeline-item-company">Politeknik Negeri Jakarta</h4>
+
+                <span>2020 - 2024</span>
+
+                <p class="timeline-text">
+                  Thesis: Rancang Bangun Aplikasi Web Klasifikasi Kelompok
+                  Bidang Keahlian dan Rekomendasi Pembimbing Skripsi dengan
+                  Machine Learning
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">AI Research Mentee</h4>
+                <h4 class="timeline-item-company">Bisa AI Academy</h4>
+
+                <span>August 2022 — December 2022</span>
+
+                <p class="timeline-text">
+                  Studied deep learning as a state-of-the-art AI research method
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon
+                  name="ribbon-outline"
+                  role="img"
+                  class="md hydrated"
+                ></ion-icon>
+              </div>
+
+              <h3 class="h3">Certification</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Junior Web Developer</h4>
+                <h4 class="timeline-item-company">
+                  Badan Nasional Sertifikasi Profesi (BNSP)
+                </h4>
+
+                <span>Issued September 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Finalist KMIPN V in E-Government
+                </h4>
+                <h4 class="timeline-item-company">
+                  Badan Koordinasi Kemahasiswaan (BAKORMA)
+                </h4>
+
+                <span>Issued September 2023</span>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  TIK Expo 2023 2nd Favorite Team
+                </h4>
+                <h4 class="timeline-item-company">Politeknik Negeri Jakarta</h4>
+
+                <span>Issued July 2023</span>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Seminar Nasional Inovasi Vokasi (SNIV) Committe
+                </h4>
+                <h4 class="timeline-item-company">Politeknik Negeri Jakarta</h4>
+
+                <span>Issued June 2023</span>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="project-list">
+              <li class="project-item active">
+                <a
+                  href="https://bintangfjulio-skripsi-jtik-pnj.hf.space/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/porto1.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Smart Skripsi JTIK</h3>
+
+                  <p class="project-category">
+                    Web & machine learning implementation using Flask, Firebase,
+                    and PyTorch for thesis and supervisor recommendation
+                  </p></a
+                >
+              </li>
+              <li class="project-item active">
+                <a
+                  href="https://bintangfjulio-temanesia.hf.space/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/porto2.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">TeMaNesia</h3>
+
+                  <p class="project-category">
+                    Web implementation using Flask and Firebase to help organize
+                    Goverments organization educational events
+                  </p></a
+                >
+              </li>
+              <li class="project-item active">
+                <a
+                  href="https://bintangfjulio-grid-stability-classifier.hf.space/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/porto3.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Grid Stability Classifier</h3>
+
+                  <p class="project-category">
+                    Web & machine learning implementation using Flask and
+                    PyTorch for grid stability classification based on numerical
+                    data
+                  </p></a
+                >
+              </li>
+              <li class="project-item active">
+                <figure class="project-img">
+                  <img
+                    src="./assets/images/porto4.jpg"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Kekayaan Intelektual UI</h3>
+
+                <p class="project-category">
+                  Web implementation using NUXT, Go, and PostgreSQL to organize
+                  the administration of intellectual property
+                </p>
+              </li>
+              <li class="project-item active">
+                <figure class="project-img">
+                  <img
+                    src="./assets/images/porto5.png"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Anjungan Pendaftaran</h3>
+
+                <p class="project-category">
+                  Web implementation using CodeIgniter for Hospital patient self
+                  registration Kios machine
+                </p>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
