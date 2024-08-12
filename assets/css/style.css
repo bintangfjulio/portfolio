@@ -157,6 +157,10 @@ body {
   background: var(--white-2);
 }
 
+.avatar-box img {
+  border-radius: 10px;
+}
+
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
