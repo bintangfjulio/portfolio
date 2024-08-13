@@ -2028,11 +2028,44 @@ textarea.form-input::-webkit-resizer {
     justify-content: center;
   }
 
-  /**
-	 * RESUME
-	 */
-
   .timeline-text {
     max-width: 700px;
   }
+}
+
+.avatar-box img:hover,
+.title:hover,
+.icon-box:hover,
+.clients-item:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.name:hover,
+.contact-info:hover,
+.article-title:hover,
+.about-text:hover,
+.service-title:hover,
+.clients-title:hover,
+.service-item:hover {
+  transform: translateY(-7px);
+  transition: 0.4s;
+}
+
+.avatar-box img:hover {
+  opacity: 1;
+}
+
+.avatar-box img {
+  opacity: 0.9;
+}
+
+.title-wrapper > .h3:hover {
+  transform: translateX(7px);
+  transition: 0.4s;
+}
+
+.timeline-item > *:hover {
+  transform: translateX(7px);
+  transition: 0.4s;
 }
