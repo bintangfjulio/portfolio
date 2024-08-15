@@ -2033,6 +2033,7 @@ textarea.form-input::-webkit-resizer {
   }
 }
 
+.bi-box-arrow-up-right:hover,
 .avatar-box img:hover,
 .title:hover,
 .icon-box:hover,
@@ -2068,4 +2069,8 @@ textarea.form-input::-webkit-resizer {
 .timeline-item > *:hover {
   transform: translateX(7px);
   transition: 0.4s;
+}
+
+.one-line {
+  display: flex;
 }
