@@ -2053,13 +2053,13 @@ textarea.form-input::-webkit-resizer {
   transition: 0.4s;
 }
 
-.avatar-box img:hover {
+/* .avatar-box img:hover {
   opacity: 1;
 }
 
 .avatar-box img {
   opacity: 0.95;
-}
+} */
 
 .title-wrapper > .h3:hover {
   transform: translateX(7px);
